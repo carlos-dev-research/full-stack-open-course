@@ -110,6 +110,6 @@ sequenceDiagram
     deactivate server
     activate browser
     browser->>browser: 
-    Note right of browser: Redraw Notes
+    Note right of browser: Browser Redraw Notes
     deactivate browser
 ```
