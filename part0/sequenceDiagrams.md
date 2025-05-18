@@ -31,7 +31,7 @@ sequenceDiagram
 ```
 ## 0.4 New note diagram
 ```mermaid
-Posting a New Note by the User
+sequenceDiagram
     participant browser
     participant server
 
