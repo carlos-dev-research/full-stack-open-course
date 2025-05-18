@@ -36,8 +36,8 @@ sequenceDiagram
     participant server
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
-    Note left of server: The server sends the request with the form data
     activate server
+    Note right of server: The server sends the request with the form data
     server-->browser: The server response with 302 which asks to redirect and make GET location header /notes
     deactivate server
 
