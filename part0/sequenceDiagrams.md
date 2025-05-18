@@ -1,5 +1,6 @@
-## Sample Exercise Diagram
+# Exercises
 
+## Sample Exercise Diagram
 ```mermaid
 sequenceDiagram
     participant browser
