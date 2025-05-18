@@ -39,6 +39,7 @@ sequenceDiagram
     Note left of server: The server sends the request with the form data
     activate server
     server-->browser: The server response with 302 which asks to redirect and make GET location header /notes
+    deactivate server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
