@@ -37,8 +37,8 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-    Note right of server: The server sends the request with the form data
-    server-->browser: The server response with 302 which asks to redirect and make GET location header /notes
+    Note right of browser: The browser sends the request with the form data
+    server-->browser: The server response with 302 which asks to redirect and make GET request to location header /notes
     deactivate server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
