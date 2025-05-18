@@ -30,7 +30,7 @@ sequenceDiagram
 
     Note right of browser: The browser executes the callback function that renders the notes
 ```
-## 0.4 New note diagram
+## 0.4: New note diagram
 ```mermaid
 sequenceDiagram
     participant browser
@@ -67,7 +67,7 @@ sequenceDiagram
     Note right of browser: The browser executes the callback function that renders the notes
 ```
 
-## 0.5 Single page app diagram
+## 0.5: Single page app diagram
 ```mermaid
 sequenceDiagram
     participant browser
