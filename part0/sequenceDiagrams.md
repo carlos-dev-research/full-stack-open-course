@@ -109,6 +109,7 @@ sequenceDiagram
     server-->browser: The server response with {"message":"note created"}
     deactivate server
     activate browser
-    browser->>browser: redrawNotes
+    browser->>browser
+    Note right of browser: Redraw Notes
     deactivate browser
 ```
