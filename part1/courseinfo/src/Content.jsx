@@ -1,9 +1,9 @@
 const Content = (props) => {
     return (
         <div>
-            <Part {...props.content1}/>
-            <Part {...props.content2}/>
-            <Part {...props.content3}/>
+            <Part part={props.parts[0]}/>
+            <Part part={props.parts[1]}/>
+            <Part part={props.parts[2]}/>
         </div>
         
     )
@@ -12,7 +12,7 @@ const Content = (props) => {
 const Part = (props) =>{
     return (
         <p>
-            {props.part} {props.exercises}
+            {props.part.name} {props.part.exercises}
         </p>
     )
 }
