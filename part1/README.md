@@ -2,7 +2,7 @@
 
 This part exercises are meant to familiarize with the React-library, and javascript features
 
-This lesson have the following subjects:
+This lesson have the following subjects:  
 a. Introduction to React  
 b. Javascript  
 c. Component state, event handlers  
